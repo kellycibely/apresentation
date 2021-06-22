@@ -1,0 +1,33 @@
+
+  /* Arrow & Hover Animation */
+  #more-arrows {
+    width: 75px;
+    height: 65px;
+    margin-left: 15px;
+  }
+  #more-arrows:hover polygon {
+    fill: #f58c9bff;
+    /* background: linear-gradient(#f58c9bff, #d5586aff); */
+    transition: all 0.2s ease-out;
+  }
+  #more-arrows:hover polygon.arrow-bottom {
+    transform: translateY(-18px);
+  }
+  #more-arrows:hover polygon.arrow-top {
+    transform: translateY(18px);
+  }
+  polygon {
+    fill: #f58c9bff;
+    transition: all 0.2s ease-out;
+  }
+  polygon.arrow-middle {
+    opacity: 0.75;
+  }
+  polygon.arrow-top {
+    opacity: 0.5;
+  }
+
+  .arrow-top {
+      width: 1%;
+  }
+  

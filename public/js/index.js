@@ -1,10 +1,10 @@
 window.onload = () => {
   
-  const transition_el = document.querySelector(".transition");
+  // const transition_el = document.querySelector(".transition");
 
-  setTimeout(() => {
-    transition_el.classList.remove("is-active");
-  }, 300);
+  // setTimeout(() => {
+  //   transition_el.classList.remove("is-active");
+  // }, 100);
 
   const buttons = document.getElementsByTagName("button");
 
@@ -24,11 +24,11 @@ window.onload = () => {
 function load() {
     setTimeout(() => {
         window.location.href = 'tecnologias.html';
-      }, 750);
+      }, 600);
 }
 
 function loadHome() {
   setTimeout(() => {
       window.location.href = 'index.html';
-    }, 750);
+    }, 600);
 }

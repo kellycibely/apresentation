@@ -249,5 +249,172 @@ h2 {
     transition: all 1s ease-in-out;
     z-index: 5;
   }
+
+  /* responsividade */
+
+/* for-phone-only */
+@media (max-width: 699px) {
+
+  .container{
+    overflow: auto;
+  }
+  
+  .teste {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title-tec {
+    font-size: 2em;
+  }
+
+  .sub-title-tec {
+    font-size: 1em;
+  }
+
+  .cont-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding-top: 10%;
+  }
+
+  .box {
+    width: 45%;
+    margin: 10px 0px ;
+  }
+
+  .shape2-tec {
+    display: none;
+  }
+
+  .shape1-tec, .shape-tec {
+    width: 43%;
+  }
+
+  .location-shape1-tec  {
+    right: -10%;
+  }
+
+  .location-shape-tec  {
+    left: -15%;
+  }
+
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+  
+}
+
+/* for-tablet-portait-only */
+@media (min-width: 700px) and (max-width: 899px) {
+  .container{
+    overflow: auto;
+  }
+  
+  .title-tec {
+    font-size: 2em;
+  }
+
+  .sub-title-tec {
+    font-size: 1em;
+  }
+
+  .cont-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding-top: 10%;
+  }
+
+  .box {
+    width: 45%;
+    margin: 10px 0px ;
+  }
+
+  .shape2-tec {
+    display: none;
+  }
+
+  .shape1-tec, .shape-tec {
+    width: 43%;
+  }
+
+  .location-shape1-tec  {
+    right: -10%;
+  }
+
+  .location-shape-tec  {
+    left: -15%;
+  }
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) and (max-width: 999px) {
+  .tecnolog-container {
+    padding: 5% 4%;
+  }
+  .container{
+    overflow: auto;
+  }
+  
+  .title-tec {
+    font-size: 2em;
+  }
+
+  .sub-title-tec {
+    font-size: 1em;
+  }
+
+  .cont-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding-top: 10%;
+  }
+
+
+  .shape1-tec, .shape-tec, .shape2-tec {
+    width: 30%;
+  }
+
+  .location-shape1-tec  {
+    right: -10%;
+  }
+
+  .location-shape2  {
+    right: -11%;
+  }
+
+  .location-shape-tec  {
+    left: -15%;
+  }
+}
+
+/* for-tablet-landscape-only */
+@media (min-width: 900px) {
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+}
+
+/* for-desktop-only */
+@media (min-width: 1200px) and (max-width: 1799px) {
+  .title {
+    font-size: 2.2em;
+  }
+}
+
+/* for-big-desktop-up */
+@media (min-width: 1800px) {
+  
+}
   
 

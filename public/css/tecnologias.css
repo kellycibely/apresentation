@@ -61,6 +61,7 @@ body {
 
 .tecnolog-container {
     padding: 5% 10%;
+    height: 100%;
 }
 .title-tec {
 font-size: 3em;
@@ -284,7 +285,8 @@ h2 {
 
   .box {
     width: 45%;
-    margin: 10px 0px ;
+    margin: 8px 0px ;
+    padding: 4px;
   }
 
   .shape2-tec {
@@ -301,6 +303,10 @@ h2 {
 
   .location-shape-tec  {
     left: -15%;
+  }
+
+  .quads-tec {
+    display: none;
   }
 
 }
@@ -351,6 +357,10 @@ h2 {
 
   .location-shape-tec  {
     left: -15%;
+  }
+
+  .quads-tec {
+    display: none;
   }
 }
 
